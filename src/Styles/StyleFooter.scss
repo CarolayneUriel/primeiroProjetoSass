@@ -1,0 +1,21 @@
+$cor-footer: #B0C4DE;
+
+.footer{
+    background-color: $cor-footer;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.link-footer{
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;   
+}
+
+p{
+    color: #ffffff;
+    font-size: 18px; 
+} 

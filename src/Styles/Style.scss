@@ -1,0 +1,45 @@
+@mixin flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(103,37,195);
+background: radial-gradient(circle, rgba(103,37,195,0.9612219887955182) 22%, rgba(6,15,107,0.9192051820728291) 76%);
+}
+   
+main{
+    
+h1{
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+section{
+    flex-direction: column;
+    @include flex;
+}
+   
+div{
+    margin: 60px;
+}
+
+figure{
+    @include flex();
+    width: 80vw;
+    justify-content: space-around;
+    
+}
+
+img{
+    width: 18vw;
+    height: 55vh;
+}
+}
